@@ -7,7 +7,7 @@ import blogRouter from './routes/blogRoutes.js'
 
 const app = express()
 
-await connectDB();
+connectDB();
 
 // Middlewares
 app.use(cors())
